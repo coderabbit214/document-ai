@@ -1,0 +1,7 @@
+server:
+  port: 9999
+openai:
+  key: xx
+qdrant:
+  host: http://127.0.0.1:6333
+  collection-name: test
