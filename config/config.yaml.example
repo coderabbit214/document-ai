@@ -3,5 +3,5 @@ server:
 openai:
   key: xx
 qdrant:
-  host: http://127.0.0.1:6333
+  host: http://qdrant:6333
   collection-name: test

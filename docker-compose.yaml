@@ -1,11 +1,5 @@
 version: '3.3'
 services:
-  documentai:
-    build: .
-    volumes:
-      - '$PWD/config:/app/config'
-    ports:
-      - '9999:9999'
   qdrant:
     volumes:
       - '$PWD/data:/qdrant/storage'
@@ -13,4 +7,9 @@ services:
       - '6333:6333'
     image: qdrant/qdrant
 
-
+  documentai:
+    build: .
+    volumes:
+      - '$PWD/config:/app/config'
+    ports:
+      - '9999:9999'
