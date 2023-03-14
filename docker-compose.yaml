@@ -9,6 +9,8 @@ services:
 
   documentai:
     build: .
+    depends_on:
+      - qdrant
     volumes:
       - '$PWD/config:/app/config'
     ports:
