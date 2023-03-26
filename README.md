@@ -1,4 +1,8 @@
 # document-ai
+
+如果您想直接使用，避免二次开发，可以查看下边这个库
+https://github.com/coderabbit214/bibliothecarius
+
 go基于向量数据库与GPT3.5的通用本地知识库方案(A universal local knowledge base solution based on vector database and GPT3.5)
 
 ## 流程
